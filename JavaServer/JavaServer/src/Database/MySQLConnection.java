@@ -45,8 +45,8 @@ public class MySQLConnection
 	private void createConnection()
 	{	
 		MysqlDataSource dataSource = new MysqlDataSource();
-		dataSource.setUser("kaleb");
-		dataSource.setPassword("Cow2grasstree");
+		dataSource.setUser("user");
+		dataSource.setPassword("password");
 		dataSource.setServerName("localhost");
 		dataSource.setDatabaseName("chat");
 		
